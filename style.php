@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="animation.css">
 
-	  <title>FOOD and DRINK</title>
+	  <title>MARI MAKAN</title>
 	</head>
 	<body>
 	<div class="container"></div>
