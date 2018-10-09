@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style>
+  body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  .header {
+    width: 100%;
+    height: 590px;
+    background-image: url('R.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+  }
+  .logo {
+    width: 20%;
+    height: 100%;
+    background-color: transparent;
+  }
+  .menu {
+    width: 80%;
+    height: 100%;
+    
+  }
+  .gambar {
+    width: 100%;
+    height: 100%;
+  }
+  .nama {
+    margin-block-start: 0;
+    position: absolute;
+    left: 90px;
+    top: 260px;
+    font-size: 7em;
+    color: blue;
+  }
+  .slogan{
+    margin-block-start: 0;
+    position: absolute;
+    left: 150px;
+    top: 400px;
+    font-size: 3em;
+    color: blue;
+  }
+  .img-logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .list-product{
+    display: flex;
+    flex-direction: row;
+  }
+  .product{
+    width: 25%;
+    height: 250px;
+    margin: 2px 2px;
+    border: 2px solid black;
+  }
+  .img-product {
+    width: 100%;
+    height: 100%;
+  }
+  .judul-product{
+    margin-block-start: 0;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -60px;
+  }
+  .testimoni {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 100%;
+  }
+  .gambar-testi{
+    width: 30%;
+    padding-left: 10%;
+    padding-top: 20px;
+  }
+  .caption{
+    padding-top: 50px;
+    width: 70%;
+    font-size: 20px;
+  }
+  .img-testimoni{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+  }
+  </style>
+  <title>Layout 1</title>
+</head>
+<body>
+  <div class="header">
+    <div class="navbar">
+      <div class="logo">
+        <img src="tt.png" alt="ini logo" class="img-logo">
+      </div>
+      <div class="menu">
+
+      </div>
+    </div>
+    <div class="gambar" >
+      <h4 class="nama">PT.JAYA ABADI</h4><br>
+      <p class="slogan">Pantang pulang sebelum menang</p>
+    </div>
+  </div>
+
+  <div class="list-product">
+    <div class="product">
+      <img src="ipnu.jpg" alt="" class="img-product">
+    </div>
+    <div class="product">
+      <img src="ipnu.jpg" alt="" class="img-product">
+    </div>
+    <div class="product">
+      <img src="ipnu.jpg" alt="" class="img-product">
+    </div>
+    <div class="product">
+      <img src="ipnu.jpg" alt="" class="img-product">
+    </div>
+  </div>
+  <div class="testimoni">
+    <div class="gambar-testi">
+      <img src="rizka.jpg" alt="gambar profile" class="img-testimoni">
+    </div>
+    <div class="caption">
+      <h1>R I Z K A M A L A</h1>
+      <p>Setelah menggunakan product ini saya jadi maju dan tambah baik</p>
+    </div>
+  </div>
+  <div class="footer">
+
+  </div>
+</body>
+</html>
